@@ -1,0 +1,66 @@
+
+
+form{
+    background-color:#131212;
+    padding: 40px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    border: 0.5px solid rgb(253, 124, 253);
+}
+
+h2{
+    font-size: 2em;
+    color:rgb(253, 124, 253);
+    margin-bottom: 10px
+
+}
+
+p{
+    color: rgb(253, 124, 253);;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+label{
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #E6BE8A;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    background-color: rgb(253, 124, 253);;
+    color: rgb(253, 124, 253);;
+    border-radius: 4px;
+ box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+input::placeholder, textarea ::placeholder{
+    color: #666;
+}
+
+button{
+    background-color:rgb(253, 124, 253); ;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #ff7900;
+}

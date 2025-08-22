@@ -1,0 +1,89 @@
+* {margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body, html {
+    background-color: #0f0f0f;
+    position: relative; /* Add this */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: rgb(26, 16, 16);
+    color: white;
+    height: 50px;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.logo {
+    margin-left: 20px;
+    color: #f5cdf7;
+}
+
+.navigation {
+    display: flex;
+    gap: 100px;
+    font-size: medium;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    color: rgb(253, 124, 253);;
+    margin-right: 20px;
+}
+.navigation a{
+    color: rgb(253, 124, 253);;
+    text-decoration: none;
+}
+
+.intro {
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    color:rgb(253, 124, 253);
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.welcome {
+    margin-left: 100px;
+    color: white;
+    font-size: 20px;
+}
+
+.cv {
+    margin-left: 100px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: rgb(182, 37, 93);
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px blueviolet;
+}
+
+main {
+    /* Removed display: flex; */
+}
+
+.side_pic {
+    height: 700px; /* Adjust height as needed */
+    width: auto;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute; /* Add this */
+    top: 50px; /* Position below the navbar, which is 50px tall */
+    right: 0; /* Add this */
+}
+
+footer {
+    display: flex;
+        justify-content: center;}
