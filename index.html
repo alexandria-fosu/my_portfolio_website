@@ -1,43 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" class="light-theme">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/styles.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alexa | Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-
 <body>
-    <header>
-
-        <h2 class="logo">AlexA</h2>
-        <nav class="navigation">
-            <a href="index.html"> Home</a>
-            <a href="about.html">About</a>
-            <a href="project.html">Project</a>
-            <a href="contact.html"> Contact</a>
-        </nav>
-    </header>
-    <main>
-        <div class="intro">
-            <div class="intro">
-                <p> Hi, <br>I am Alexandria<br> a web developer.</p>
-            </div>
-            <br>
-            <div class="welcome">
-                <p> Welcome to my page !</p>
-            </div>
-            <br>
-            <button class="cv">Download CV</button>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo">Alexa Dev</div>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+          <a href="lets-play.html">Let's Play</a>
         </div>
-        <figure>
-            <img class="side_pic" src="images/web_background (2).jpg" alt="side_back">
-        </figure>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
 
+  <main class="container">
+    <!-- Hero + Profile Picture -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="animate-title">Hi, I'm Alexa ✨</h1>
+        <p class="animate-subtitle">A passionate front-end developer crafting beautiful, accessible, and performant web experiences.</p>
+        <a href="images/Alexandria's CV.pdf" class="btn" download>Download CV</a>
+      </div>
+      <div class="profile-picture">
+        <img src="images/003A0509.jpg" alt="Alexa, Front-End Developer">
+      </div>
+    </section>
 
-    </main>
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="about-text">
+        I'm  Fosu Alexandria Badu a detail-oriented front-end developer building responsive, user-friendly web applications. 
+        My passion lies in transforming design mockups into pixel-perfect, accessible, and performant interfaces using modern 
+        HTML, CSS, and JavaScript frameworks like React. I believe in writing clean, maintainable code and continuously learning 
+        to stay at the forefront of web technologies. When I'm not coding, you’ll find me making fashion enquiries, contributing to open-source.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span class="skill-tag">HTML5</span>
+        <span class="skill-tag">CSS3 / SCSS</span>
+        <span class="skill-tag">JavaScript (ES6+)</span>
+        <span class="skill-tag">Nicegui</span>
+        <span class="skill-tag">Responsive Design</span>
+        <span class="skill-tag">Git & GitHub</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="images/try2.png" alt="Game Project Preview">
+          <div class="project-content">
+            <h3>Mathematical game</h3>
+            <p>A mathematical game built with html,css and JavaScript.</p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/restaurant .png" alt="Restaurant App Preview">
+          <div class="project-content">
+            <h3>Restaurant Template</h3>
+            <p>A restaurant template built with nicegui amd css </p>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="images/Raael.png" alt="Personal Portfolio Website">
+          <div class="project-content">
+            <h3>Advertising Manager</h3>
+            <p>An Advertising manager built with Nicegui and Tailwind CSS.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Me</h2>
+      <p class="contact-text">
+        Have a project in mind or want to say hello? Feel free to reach out!  
+        I'm currently open to freelance opportunities and full-time roles.
+      </p>
+      <a href="alexandria.fosu@gmail.com" class="btn contact-btn">Send an Email</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Alexa Dev. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
