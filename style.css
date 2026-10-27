@@ -272,7 +272,7 @@ footer {
   }
 
   .nav-links {
-    gap: 1rem;
+    gap: 1em;
     font-size: 0.9rem;
   }
 }
